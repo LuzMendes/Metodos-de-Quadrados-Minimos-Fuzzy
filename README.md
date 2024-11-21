@@ -15,14 +15,32 @@ Esse repositório é destinado a adaptações de ferramentas matemáticas cláss
 - [Autores](#autores)
 
 ## O que é o Fuzzy?
+É uma área que permite atribuir um grau de pertencimento não apenas de forma binária ( pertence ou não pertence), mas valores entre 0 e 1, retirando a rigidez numérica e representando melhor a subjetividade e incerteza da realidade. Essa Teoria Fuzzy é muito usado para aplicar ou trabalhar com incerteza de dados, como dados biológicos. Nesse projeto, criamos também códigos que respeitam a Algebra Linear Fuzzy, como operações simples como soma e multiplicação.
+
+![Texto Alternativo](caminho/para/a/imagem.png)
+
 
 ## Como usar o código?
 Então, podemos dividir os notebooks disponibilizados nesse repositório de acordo com as ferramentas que foram adaptadas:
 
-## Sistemas Lineares Fuzzy
+* Algebra Fuzzy e Sistema Linear LU Fuzzy
+* Quadrados Mínimos e Plotagem 3D
+
+## Sistemas Lineares Fuzzy - LU
+O método direto de resolução de sistemas lineares por decomposição LU consiste em fatorar a matriz A em duas matrizes triangulares, facilitando a resolução do sistema. Uma vez que, para realizar um ajuste fuzzy, devemos resolver diversos sistemas que possuem a mesma matriz A para verificarmos todas as possíveis soluções.
+
+![Texto Alternativo](caminho/para/a/imagem.png)
+
 
 ## Quadrados Mínimos Fuzzy
 
+O métodos implementado, nesse repositório, para o ajuste de curvas é a extrapolação por quadrados mínimos, técnica de otimização que busca os coeficientes ideais de uma função para minimizar o erro quadrado entre os pontos e a curva prevista. Então, nesse projeta adaptamos essa ferramenta para aceitar números triangulares fuzzy.
+
+![Texto Alternativo](caminho/para/a/imagem.png)
+
+
 ## Plotagem 3D
+
+A plotagem 3D é um recurso que mais inlustra o resultado obtido, pois a partir dele podemos compreender o grau de pertencimento da faixa de incerteza gerada.
 
 ## Autores
