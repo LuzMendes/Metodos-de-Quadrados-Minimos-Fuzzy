@@ -1,11 +1,12 @@
 ![Black Green and White Typographic and Modern Maths Themed Youtube Thumbnail](https://github.com/user-attachments/assets/0c2a3d79-2bd6-4ff3-a33d-b92e997a5c19)
 # Metodos de Quadrados Minimos Fuzzy
 <p align="center">
-  <a href="[#Área da Matemática inovadora]">Área da Matemática inovadora</a> &nbsp;&bull;&nbsp;
-  <a href="[#Ferramentas Adaptadas]">Ferramentas Adaptadas</a> &nbsp;&bull;&nbsp;
-  <a href="[#Ajuste de Curva]">Ajuste de Curva</a> &nbsp;&bull;&nbsp
+  &nbsp;&bull;&nbsp; Área inovadora da Matemática 
+  &nbsp;&bull;&nbsp; Ferramentas Adaptadas
+  &nbsp;&bull;&nbsp; Ajuste de Curva
+  &nbsp;&bull;&nbsp; Python
 </p>
-Esse repositório é destinado a adaptações de ferramentas matemáticas clássicas de ajuste de curva como o Quadrados Mínimos bem como métodos de resolução de Sistemas Lineares.
+Esse repositório é destinado à adaptação de ferramentas computacionais utilizadas para o ajuste de curvas por Quadrados Mínimos e resolução de sistemas lineares por decomposição LU, de forma que estes possam receber como entrada matrizes compostas por números fuzzy triangulares.
 
 ## Sumário
 - [O que é o Fuzzy?](#o-que-é-o-fuzzy)
@@ -18,64 +19,59 @@ Esse repositório é destinado a adaptações de ferramentas matemáticas cláss
 ## O que é o Fuzzy?
 É uma área que permite atribuir um grau de pertencimento não apenas de forma binária ( pertence ou não pertence), mas valores entre 0 e 1, retirando a rigidez numérica e representando melhor a subjetividade e incerteza da realidade. Essa Teoria Fuzzy é muito usado para aplicar ou trabalhar com incerteza de dados, como dados biológicos. Nesse projeto, criamos também códigos que respeitam a Algebra Linear Fuzzy, como operações simples como soma e multiplicação.
 
-<img src="https://github.com/user-attachments/assets/0f0c5f62-1701-4722-b8eb-6725f69a94e7" height="500" style="display: block; margin: auto;">
-
+<img src="https://github.com/user-attachments/assets/0f0c5f62-1701-4722-b8eb-6725f69a94e7" height="350" style="display: block; margin: auto;">
 
 ## Como usar o código?
-Então, podemos dividir os notebooks disponibilizados nesse repositório de acordo com as ferramentas que foram adaptadas:
+Podemos dividir os notebooks disponibilizados nesse repositório de acordo com as ferramentas que foram adaptadas:
 
-* Algebra Fuzzy
-* Sistema Linear LU Fuzzy
+* Álgebra Fuzzy
+* Sistema Linear Fuzzy e Decomposição LU
 * Quadrados Mínimos e Plotagem 3D
 
 ## Sistemas Lineares Fuzzy
-O método direto de resolução de sistemas lineares por decomposição LU consiste em fatorar a matriz A em duas matrizes triangulares, facilitando a resolução do sistema. Uma vez que, para realizar um ajuste fuzzy, devemos resolver diversos sistemas que possuem a mesma matriz A para verificarmos todas as possíveis soluções.
+O método direto de resolução de sistemas lineares por **decomposição LU** consiste em fatorar a matriz A em duas matrizes triangulares, facilitando a resolução do sistema. Uma vez que para realizar um ajuste fuzzy devemos resolver diversos sistemas que possuem a mesma matriz A de coeficientes, esse foi o método que se mostrou mais vantajoso para a presente aplicação.
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/a1fc4580-6664-408f-9041-7f517968b5f5" height = "200px">
+  <img src="https://github.com/user-attachments/assets/a1fc4580-6664-408f-9041-7f517968b5f5" height = "100px">
 </div>
 
 ## Quadrados Mínimos Fuzzy
 
-O métodos implementado, nesse repositório, para o ajuste de curvas é a extrapolação por quadrados mínimos, técnica de otimização que busca os coeficientes ideais de uma função para minimizar o erro quadrado entre os pontos e a curva prevista. Então, nesse projeta adaptamos essa ferramenta para aceitar números triangulares fuzzy.
+O método implementado nesse repositório para o ajuste de curvas é a extrapolação por **quadrados mínimos**, técnica de otimização que busca os coeficientes ideais de uma função de forma que minimize o erro quadrado entre os pontos e a curva prevista. Nesse projeto, adaptamos essa ferramenta para aceitar como entrada números fuzzy triangulares.
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/fde872dc-6ede-4234-9163-c1c1d6d33df4" height = "500px">
+  <img src="https://github.com/user-attachments/assets/fde872dc-6ede-4234-9163-c1c1d6d33df4" height = "350px">
 </div>
-
 
 ## Plotagem 3D
 
-A plotagem 3D é um recurso que mais inlustra o resultado obtido, pois a partir dele podemos compreender o grau de pertencimento da faixa de incerteza gerada.
+A plotagem 3D é o recurso gráfico que melhor ilustra os resultados obtidos na vigente aplicação, pois esta permite a visualização do **grau de pertencimento** de cada ponto da banda de incerteza gerada.
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/4634d7c1-ffcf-447b-96fb-1db95627e272" height = "250px">
+  <img src="https://github.com/user-attachments/assets/4634d7c1-ffcf-447b-96fb-1db95627e272" height = "400px">
 </div>
 
 ## Autores
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+[<img src="https://avatars.githubusercontent.com/u/172425049?v=4" width=100>](https://github.com/LuzMendes)
+**Ana Luz Pereira Mendes**¹, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais
 
-  <figure style="text-align: center;">
-    <a href="https://github.com/LuzMendes">
-      <img src="https://avatars.githubusercontent.com/u/172425049?v=4" alt="Ana Luz Pereira Mendes" width="115">
-    </a>
-    <figcaption>Ana Luz Pereira Mendes</figcaption>
-  </figure>
+[<img src="https://avatars.githubusercontent.com/u/172425156?v=4" width=100>](https://github.com/leticiaalmnunes)
+**Letícia Almeida Nunes**¹, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais
 
-  <figure style="text-align: center;">
-    <a href="https://github.com/yasminbshimizu">
-      <img src="https://avatars.githubusercontent.com/u/171518829?v=4" alt="Yasmin Barbosa Shimizu" width="115">
-    </a>
-    <figcaption>Yasmin Barbosa Shimizu</figcaption>
-  </figure>
+[<img src="https://avatars.githubusercontent.com/u/171518829?v=4" width=100>](https://github.com/yasminbshimizu)
+**Yasmin Barbosa Shimizu**¹, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais
 
-  <figure style="text-align: center;">
-    <a href="https://github.com/leticiaalmnunes">
-      <img src="https://avatars.githubusercontent.com/u/172425156?v=4" alt="Leticia Almeida Nunes" width="115">
-    </a>
-    <figcaption>Leticia Almeida Nunes</figcaption>
-  </figure>
+[<img src="https://avatars.githubusercontent.com/u/63320963?v=4" width=100>](https://github.com/viniciuswasques)
+**Vinícius Francisco Wasques**, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais
+<br><br>
 
+_¹: Contribuições iguais_
+
+<br><br>
+
+_Clique na foto para ser redirecionado para o perfil do respectivo autor._
+
+![Logos MCTI, CNPEM e ILUM](https://github.com/leticiaalmnunes/PCD---Boletim/assets/172425156/93c3eb13-410c-40c0-a412-7096187678a4)
 </div>
 
