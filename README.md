@@ -6,7 +6,12 @@
   &nbsp;&bull;&nbsp; Ajuste de Curva
   &nbsp;&bull;&nbsp; Python
 </p>
+
 Esse repositório é destinado à adaptação de ferramentas computacionais utilizadas para o ajuste de curvas por Quadrados Mínimos e resolução de sistemas lineares por decomposição LU, de forma que estes possam receber como entrada matrizes compostas por números fuzzy triangulares.
+
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 ## Sumário
 - [O que é o Fuzzy?](#o-que-é-o-fuzzy)
