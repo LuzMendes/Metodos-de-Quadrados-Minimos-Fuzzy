@@ -22,7 +22,9 @@ Esse repositório é destinado à adaptação de ferramentas computacionais util
 - [Autores](#autores)
 
 ## O que é o Fuzzy?
-É uma área que permite atribuir um grau de pertencimento não apenas de forma binária ( pertence ou não pertence), mas valores entre 0 e 1, retirando a rigidez numérica e representando melhor a subjetividade e incerteza da realidade. Essa Teoria Fuzzy é muito usado para aplicar ou trabalhar com incerteza de dados, como dados biológicos. Nesse projeto, criamos também códigos que respeitam a Algebra Linear Fuzzy, como operações simples como soma e multiplicação.
+A teoria de conjuntos fuzzy é uma área da matemática que permite a representação númerica não apenas de forma binária (pertence ou não pertence), mas atribuindo um grau de pertinência - ou pertencimento - com valores entre 0 e 1, retirando a rigidez numérica e possibilitando uma melhor representação da incerteza intrínseca à realidade. O Fuzzy é muito utilizado para criar ou trabalhar com dados incertos, como dados biológicos.
+
+Nesse projeto, criamos números fuzzy para representarem a incerteza de dados sobre o número sobre infectados por HIV no Brasil e códigos que respeitam a aritmética Fuzzy (e.g. soma interativa via $J_0$) para adaptação dos métodos de ajuste de curva por Quadrados Mínimos e resolução de sistemas lineares por decomposição LU.
 
 <img src="https://github.com/user-attachments/assets/0f0c5f62-1701-4722-b8eb-6725f69a94e7" height="350" style="display: block; margin: auto;">
 
