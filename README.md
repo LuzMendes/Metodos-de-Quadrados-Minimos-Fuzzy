@@ -44,7 +44,7 @@ O método direto de resolução de sistemas lineares por **decomposição LU** c
 
 ## Quadrados Mínimos Fuzzy
 
-O método implementado nesse repositório para o ajuste de curvas é a extrapolação por **quadrados mínimos**, técnica de otimização que busca os coeficientes ideais de uma função de forma que minimize o erro quadrado entre os pontos e a curva prevista. Nesse projeto, adaptamos essa ferramenta para aceitar como entrada números fuzzy triangulares.
+O método implementado nesse repositório para o ajuste de curvas é a extrapolação por **quadrados mínimos**, técnica de otimização que busca os coeficientes ideais de uma função de forma que minimize o erro quadrado entre os pontos e a curva prevista. Nesse projeto, adaptamos essa ferramenta para aceitar como entrada números fuzzy triangulares..
 
 <div style="text-align: center;">
   <img src="https://github.com/user-attachments/assets/fde872dc-6ede-4234-9163-c1c1d6d33df4" height = "350px">
