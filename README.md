@@ -19,6 +19,7 @@ Esse repositório é destinado à adaptação de ferramentas computacionais util
 - [Sistemas Lineares Fuzzy](#sistemas-lineares-fuzzy)
 - [Quadrados Mínimos Fuzzy](#quadrados-mínimos-fuzzy)
 - [Plotagem 3D](#plotagem-3d)
+- [Resultados](#resultados)
 - [Autores](#autores)
 
 ## O que é o Fuzzy?
@@ -35,6 +36,8 @@ Podemos dividir os notebooks disponibilizados nesse repositório de acordo com a
 * Sistema Linear Fuzzy e Decomposição LU
 * Quadrados Mínimos e Plotagem 3D
 
+Além disso, na pasta "Imagens", é possível encontrar o notebook Jupyter "0.Gera_Gráficos", que contém os códigos referentes aos gráficos ilustrativos usados em apresentações e publicações.
+
 ## Sistemas Lineares Fuzzy
 O método direto de resolução de sistemas lineares por **decomposição LU** consiste em fatorar a matriz A em duas matrizes triangulares, facilitando a resolução do sistema. Uma vez que para realizar um ajuste fuzzy devemos resolver diversos sistemas que possuem a mesma matriz A de coeficientes, esse foi o método que se mostrou mais vantajoso para a presente aplicação.
 
@@ -44,7 +47,7 @@ O método direto de resolução de sistemas lineares por **decomposição LU** c
 
 ## Quadrados Mínimos Fuzzy
 
-O método implementado nesse repositório para o ajuste de curvas é a extrapolação por **quadrados mínimos**, técnica de otimização que busca os coeficientes ideais de uma função de forma que minimize o erro quadrado entre os pontos e a curva prevista. Nesse projeto, adaptamos essa ferramenta para aceitar como entrada números fuzzy triangulares..
+O método implementado nesse repositório para o ajuste de curvas é a extrapolação por **quadrados mínimos**, técnica de otimização que busca os coeficientes ideais de uma função de forma que minimize o erro quadrado entre os pontos e a curva prevista. Nesse projeto, adaptamos essa ferramenta para aceitar como entrada números fuzzy triangulares.
 
 <div style="text-align: center;">
   <img src="https://github.com/user-attachments/assets/fde872dc-6ede-4234-9163-c1c1d6d33df4" height = "350px">
@@ -57,6 +60,13 @@ A plotagem 3D é o recurso gráfico que melhor ilustra os resultados obtidos na 
 <div style="text-align: center;">
   <img src="https://github.com/user-attachments/assets/4634d7c1-ffcf-447b-96fb-1db95627e272" height = "400px">
 </div>
+
+## Resultados
+Utilizando a implementação em Python do método de quadrados mínimos fuzzy aqui desenvolvida, aplicados a dados sintéticos fuzzy, obtivemos como resultados os seguintes ajustes lineares fuzzy:
+
+<img src="Imagens/GráficoFuzzy.png" height = "400px">
+
+Como característico da resolução de sistemas lineares fuzzy, foram obtidas algumas soluções - nesse caso, duas curvas diferentes. Assim, é preciso escolher qual melhor representa nossos dados. É possível observar que a solução 1, a longo prazo, se adequa melhor aos nossos dados visto que a incerteza não se abre muito, correspondendo melhor ao diâmetro dos dados fuzzy utilizados. Além disso, considerando que utilizamos a soma fuzzy otimista, a solução com menor banda de incerteza se correlaciona melhor com a abordagem proposta.
 
 ## Autores
 
