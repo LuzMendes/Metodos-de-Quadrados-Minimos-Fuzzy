@@ -1,6 +1,6 @@
 % Codigo geracao de dados para artigo de ajuste de curvas fuzzy
 % Ana Luz, Leticia Nunes, Yasmin Shimizu, Vinicius Wasques
-% Ilum Escola de Ciência
+% Ilum Escola de CiÃªncia
 % Centro Nacional de Pesquisa em Energia e Materias
 % ============     REGRESSAO QUADRATICA     ====================
 
