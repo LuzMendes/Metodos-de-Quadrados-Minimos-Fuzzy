@@ -76,7 +76,7 @@ Utilizando a implementação em Python do método de quadrados mínimos fuzzy aq
 
 <img src="Imagens/GráficoFuzzy.png" height = "400px">
 
-Como característico da resolução de sistemas lineares fuzzy, foram obtidas algumas soluções - nesse caso, duas curvas diferentes. Assim, é preciso escolher qual melhor representa nossos dados. É possível observar que a solução 1, a longo prazo, se adequa melhor aos nossos dados visto que a incerteza não se abre muito, correspondendo melhor ao diâmetro dos dados fuzzy utilizados. Além disso, considerando que utilizamos a soma fuzzy otimista, a solução com menor banda de incerteza se correlaciona melhor com a abordagem proposta.
+
 
 ## Autores
 
