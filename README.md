@@ -1,4 +1,7 @@
-![Black Green and White Typographic and Modern Maths Themed Youtube Thumbnail](https://github.com/user-attachments/assets/0c2a3d79-2bd6-4ff3-a33d-b92e997a5c19)
+<div align="center">
+  <img src="Imagens/logo_Ilum-CNPEM.png" alt="Descrição da imagem" width="1000"/>
+</div>
+
 # Metodos de Quadrados Minimos Fuzzy
 <p align="center">
   &nbsp;&bull;&nbsp; Área inovadora da Matemática 
