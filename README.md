@@ -2,12 +2,14 @@
   <img src="Imagens/logo_Ilum-CNPEM.png" alt="Descrição da imagem" width="1000"/>
 </div>
 
-# Metodos de Quadrados Minimos Fuzzy
+<h1 align="center">Métodos de Quadrados Mínimos Fuzzy</h1>
+
+
 <p align="center">
-  &nbsp;&bull;&nbsp; Área inovadora da Matemática 
-  &nbsp;&bull;&nbsp; Ferramentas Adaptadas
-  &nbsp;&bull;&nbsp; Ajuste de Curva
-  &nbsp;&bull;&nbsp; Python
+  &nbsp;&bull;&nbsp; <strong>Área inovadora da Matemática</strong>
+  &nbsp;&bull;&nbsp; <strong>Ferramentas Adaptadas</strong>
+  &nbsp;&bull;&nbsp; <strong>Ajuste de Curva</strong>
+  &nbsp;&bull;&nbsp; <strong>Python</strong>
 </p>
 
 Esse repositório é destinado à adaptação de ferramentas computacionais utilizadas para o ajuste de curvas por Quadrados Mínimos e resolução de sistemas lineares por decomposição LU, de forma que estes possam receber como entrada matrizes compostas por números fuzzy triangulares.
@@ -17,13 +19,16 @@ Esse repositório é destinado à adaptação de ferramentas computacionais util
 </p>
 
 ## Sumário
-- [O que é o Fuzzy?](#o-que-é-o-fuzzy)
+- [Introdução](#introdução)
+    - [O que é o Fuzzy?](#o-que-é-o-fuzzy)
+    - [Sistemas Lineares Fuzzy](#sistemas-lineares-fuzzy)
+    - [Quadrados Mínimos Fuzzy](#quadrados-mínimos-fuzzy)
 - [Como usar o código?](#como-usar-o-código)
-- [Sistemas Lineares Fuzzy](#sistemas-lineares-fuzzy)
-- [Quadrados Mínimos Fuzzy](#quadrados-mínimos-fuzzy)
-- [Plotagem 3D](#plotagem-3d)
-- [Resultados](#resultados)
+- [Plot dos gráficos](#plot-dos-gráficos)
+- [Demonstração do funcionamento](#demonstração-do-funcionamento)
 - [Autores](#autores)
+  
+<h2 align="center">Introdução</h2>
 
 ## O que é o Fuzzy?
 A teoria de conjuntos fuzzy é uma área da matemática que permite a representação númerica não apenas de forma binária (pertence ou não pertence), mas atribuindo um grau de pertinência - ou pertencimento - com valores entre 0 e 1, retirando a rigidez numérica e possibilitando uma melhor representação da incerteza intrínseca à realidade. O Fuzzy é muito utilizado para criar ou trabalhar com dados incertos, como dados biológicos.
@@ -31,15 +36,6 @@ A teoria de conjuntos fuzzy é uma área da matemática que permite a representa
 Nesse projeto, criamos números fuzzy para representarem a incerteza de dados sobre o número sobre infectados por HIV no Brasil e códigos que respeitam a aritmética Fuzzy (e.g. soma interativa via $J_0$) para adaptação dos métodos de ajuste de curva por Quadrados Mínimos e resolução de sistemas lineares por decomposição LU.
 
 <img src="https://github.com/user-attachments/assets/0f0c5f62-1701-4722-b8eb-6725f69a94e7" height="350" style="display: block; margin: auto;">
-
-## Como usar o código?
-Podemos dividir os notebooks disponibilizados nesse repositório de acordo com as ferramentas que foram adaptadas:
-
-* Álgebra Fuzzy
-* Sistema Linear Fuzzy e Decomposição LU
-* Quadrados Mínimos e Plotagem 3D
-
-Além disso, na pasta "Imagens", é possível encontrar o notebook Jupyter "0.Gera_Gráficos", que contém os códigos referentes aos gráficos ilustrativos usados em apresentações e publicações.
 
 ## Sistemas Lineares Fuzzy
 O método direto de resolução de sistemas lineares por **decomposição LU** consiste em fatorar a matriz A em duas matrizes triangulares, facilitando a resolução do sistema. Uma vez que para realizar um ajuste fuzzy devemos resolver diversos sistemas que possuem a mesma matriz A de coeficientes, esse foi o método que se mostrou mais vantajoso para a presente aplicação.
@@ -53,10 +49,20 @@ O método direto de resolução de sistemas lineares por **decomposição LU** c
 O método implementado nesse repositório para o ajuste de curvas é a extrapolação por **quadrados mínimos**, técnica de otimização que busca os coeficientes ideais de uma função de forma que minimize o erro quadrado entre os pontos e a curva prevista. Nesse projeto, adaptamos essa ferramenta para aceitar como entrada números fuzzy triangulares.
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/fde872dc-6ede-4234-9163-c1c1d6d33df4" height = "350px">
+  <img src="https://github.com/user-attachments/assets/fde872dc-6ede-4234-9163-c1c1d6d33df4" height = "350px"  width="500">>
 </div>
 
-## Plotagem 3D
+<h2 align="center">Como usar o código?</h2>
+
+Podemos dividir os notebooks disponibilizados nesse repositório de acordo com as ferramentas que foram adaptadas:
+
+* Álgebra Fuzzy
+* Sistema Linear Fuzzy e Decomposição LU
+* Quadrados Mínimos e Plotagem 3D
+
+Além disso, na pasta "Imagens", é possível encontrar o notebook Jupyter "0.Gera_Gráficos", que contém os códigos referentes aos gráficos ilustrativos usados em apresentações e publicações.
+
+<h2 align="center">Plot dos gráficos</h2>
 
 A plotagem 3D é o recurso gráfico que melhor ilustra os resultados obtidos na vigente aplicação, pois esta permite a visualização do **grau de pertencimento** de cada ponto da banda de incerteza gerada.
 
@@ -64,7 +70,8 @@ A plotagem 3D é o recurso gráfico que melhor ilustra os resultados obtidos na 
   <img src="https://github.com/user-attachments/assets/4634d7c1-ffcf-447b-96fb-1db95627e272" height = "400px">
 </div>
 
-## Resultados
+<h2 align="center">Demonstração do funcionamento</h2>
+
 Utilizando a implementação em Python do método de quadrados mínimos fuzzy aqui desenvolvida, aplicados a dados sintéticos fuzzy, obtivemos como resultados os seguintes ajustes lineares fuzzy:
 
 <img src="Imagens/GráficoFuzzy.png" height = "400px">
